@@ -15,7 +15,7 @@ class EventBus<T> {
     }
   }
 
-  off(event: string, func: Func<T> | undefined) {
+  off(event: string, func: Func<T> | undefined = undefined) {
     if (func) {
       const arr = this.events[event];
       if (arr) {
