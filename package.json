@@ -1,5 +1,5 @@
 {
-  "name": "event-bus-ts",
+  "name": "@guing/event-bus",
   "version": "0.0.1",
   "description": "This is a simple and powerful TypeScript event bus for managing events and listeners",
   "main": "dist/commonjs/index.min.js",
